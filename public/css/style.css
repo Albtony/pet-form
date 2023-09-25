@@ -66,6 +66,7 @@ body {
 .field-input {
     text-align: center;
     border-radius: 30px;
+    color: #0d101a;
     border: 2px solid #FFF;
     padding: 15px; 
     width: 20rem;
@@ -95,4 +96,20 @@ body {
 
 .hidden {
     display: none;
+}
+
+#alert-success {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1.6rem;
+    color: #198754;
+}
+
+#alert-error ul li {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1.6rem;
+    color: #ff3333;
 }

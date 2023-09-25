@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('form');
 });
+
+Route::post('/','App\Http\Controllers\FormController@store')->name('submit-form');
