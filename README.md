@@ -9,6 +9,13 @@ This repo is created as a submission for a Framework-Based Programming subject t
 - form will validate its input before storage
 - return feedback to users in the form of a flash success message
 
+## How To Run
+1. install <a href="https://laravel.com/docs/10.x/installation">Laravel</a> 
+2. clone the repo with `git clone https://github.com/Albtony/pet-form.git`
+3. go to the repo directory with `cd .\pet-form`
+4. run `php artisan serve`
+5. open `http://127.0.0.1:8000/` in your browser
+
 ## Repo Documentation
 This is how the page looks: </br>
 <img src="https://github.com/Albtony/pet-form/assets/78489357/e5ff28b1-a45e-4e50-95f9-cc8cba0b53db" alt="form-unfilled"> </br>
@@ -22,8 +29,6 @@ This is how the data is stored: </br>
     <img src="https://github.com/Albtony/pet-form/assets/78489357/a091282d-f26c-42aa-8d5c-82f349966c02" alt="stored-pic" width="400px"> </br>
     <img src="https://github.com/Albtony/pet-form/assets/78489357/3ec92d1b-86da-411f-ba0f-e8822d80a8d7" alt="stored-JSON" width="400px"> </br>
 </p>
-
-
 
 
 
